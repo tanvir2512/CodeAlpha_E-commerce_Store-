@@ -1,0 +1,169 @@
+{
+  "products": [
+    {
+      "id": "prod-1",
+      "title": "Pixhawk 6C Autopilot Controller",
+      "category": "Flight Controllers",
+      "price": 249.99,
+      "rating": 4.9,
+      "stock": 14,
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80",
+      "description": "High-precision flight autopilot featuring STM32H743 MCU, triple redundant IMUs, and pre-loaded ArduPilot/PX4 firmware compatibility.",
+      "specs": {
+        "voltage": "4.75V - 5.25V Input",
+        "weight": "48g | 84x44x12mm",
+        "mcu": "STM32H743 High-Speed"
+      }
+    },
+    {
+      "id": "prod-2",
+      "title": "Brushless ESC 30A (BLHeli_S)",
+      "category": "ESC & Motors",
+      "price": 18.5,
+      "rating": 4.7,
+      "stock": 45,
+      "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&w=500&q=80",
+      "description": "Ultra-fast 30A Electronic Speed Controller supporting DShot600, active braking, and high-efficiency MOSFETs for multirotors.",
+      "specs": {
+        "voltage": "2-4S LiPo Support",
+        "weight": "11g w/ wires",
+        "mcu": "EFM8BB21 micro"
+      }
+    },
+    {
+      "id": "prod-3",
+      "title": "Tattu 4S LiPo Battery 14.8V 4500mAh",
+      "category": "Power & Batteries",
+      "price": 64.95,
+      "rating": 4.8,
+      "stock": 22,
+      "image": "https://images.unsplash.com/photo-1619725002198-6a689b72f41d?auto=format&fit=crop&w=500&q=80",
+      "description": "75C continuous discharge rate LiPo pack engineered for high-demand drone motors and robotics power distribution systems.",
+      "specs": {
+        "voltage": "14.8V (4S Cell)",
+        "weight": "420g",
+        "mcu": "XT60 Plug Fitted"
+      }
+    },
+    {
+      "id": "prod-4",
+      "title": "NVIDIA Jetson Orin Nano Developer Kit",
+      "category": "Companion Computers",
+      "price": 499,
+      "rating": 5,
+      "stock": 6,
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=500&q=80",
+      "description": "Delivers up to 40 TOPS of AI performance for autonomous robots, drones, and edge vision processing in a compact form factor.",
+      "specs": {
+        "voltage": "9V - 19V DC Input",
+        "weight": "150g Board",
+        "mcu": "6-core ARM + Ampere GPU"
+      }
+    },
+    {
+      "id": "prod-5",
+      "title": "Sunnysky 2212 920KV BLDC Motor",
+      "category": "ESC & Motors",
+      "price": 15.9,
+      "rating": 4.6,
+      "stock": 80,
+      "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=500&q=80",
+      "description": "Durable brushless motor featuring Japanese NMB bearings, oxygen-free copper wire, and dynamic balancing for low vibrations.",
+      "specs": {
+        "voltage": "3-4S LiPo Compatible",
+        "weight": "52g",
+        "mcu": "920 RPM/Volt"
+      }
+    },
+    {
+      "id": "prod-6",
+      "title": "SiK Telemetry Radio Transceiver 915MHz",
+      "category": "Companion Computers",
+      "price": 39.99,
+      "rating": 4.5,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=500&q=80",
+      "description": "Long-range ground station telemetry system providing 500mW bi-directional wireless data links up to 2km line of sight.",
+      "specs": {
+        "voltage": "5V via Micro-USB/UART",
+        "weight": "16g per module",
+        "mcu": "CP2102 Serial Bridge"
+      }
+    },
+    {
+      "id": "prod-7",
+      "title": "Carbon Fiber 10x4.5 Propeller Pair",
+      "category": "Accessories",
+      "price": 12,
+      "rating": 4.8,
+      "stock": 60,
+      "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=500&q=80",
+      "description": "Lightweight, high-rigidity carbon fiber propellers optimized for maximum thrust efficiency and reduced aerodynamic flutter.",
+      "specs": {
+        "voltage": "N/A Mechanical",
+        "weight": "14g per pair",
+        "mcu": "8mm Shaft Hole"
+      }
+    },
+    {
+      "id": "prod-8",
+      "title": "TowerPro SG90 9g Micro Servo",
+      "category": "Accessories",
+      "price": 4.25,
+      "rating": 4.4,
+      "stock": 120,
+      "image": "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=500&q=80",
+      "description": "Compact 1.8kg/cm torque micro servo motor suitable for gimbal stabilization, steering mechanisms, and robotic arms.",
+      "specs": {
+        "voltage": "4.8V - 6.0V DC",
+        "weight": "9g Servo Weight",
+        "mcu": "3-pin PWM Interface"
+      }
+    }
+  ],
+  "users": [
+    {
+      "email": "maker@robotics.com",
+      "name": "Demo Maker",
+      "password": "password123"
+    },
+    {
+      "name": "Mafia King",
+      "email": "markus@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "carts": {
+    "markus@gmail.com": []
+  },
+  "orders": [
+    {
+      "id": "RC-224441",
+      "userId": "markus@gmail.com",
+      "items": [
+        {
+          "id": "prod-2",
+          "title": "Brushless ESC 30A (BLHeli_S)",
+          "price": 18.5,
+          "image": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?auto=format&fit=crop&w=500&q=80",
+          "qty": 1
+        },
+        {
+          "id": "prod-1",
+          "title": "Pixhawk 6C Autopilot Controller",
+          "price": 249.99,
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80",
+          "qty": 1
+        }
+      ],
+      "total": 293.91450000000003,
+      "shippingAddress": {
+        "name": "Tanvirul Islam",
+        "address": "67/A Sufi Abdul Wadud Lane, Kapasgola",
+        "city": "Chattogram"
+      },
+      "status": "Processing",
+      "date": "2026-11-07T20:24:12.663Z"
+    }
+  ]
+}
