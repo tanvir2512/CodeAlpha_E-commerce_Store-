@@ -2,13 +2,13 @@
   "products": [
     {
       "id": "prod-1",
-      "title": "Pixhawk 6C Autopilot Controller",
+      "title": "Arducopter APM 2.8 Flight Controller",
       "category": "Flight Controllers",
-      "price": 249.99,
-      "rating": 4.9,
+      "price": 54.8,
+      "rating": 4.0,
       "stock": 14,
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=500&q=80",
-      "description": "High-precision flight autopilot featuring STM32H743 MCU, triple redundant IMUs, and pre-loaded ArduPilot/PX4 firmware compatibility.",
+      "image": "/images/apm-2.8-flightcontroller.jpg",
+      "description": "Model: APM 2.8 APM 2.8 Flight Controller \n Input Voltage (V): 12-16 V. \nAPM 2.8 Flight Controller Processor: ATMEGA2560 and ATMEGA32U-2 \nAPM 2.8 Flight Controller Dimensions (mm) L x W x H: 70 x 45 x 15",
       "specs": {
         "voltage": "4.75V - 5.25V Input",
         "weight": "48g | 84x44x12mm",
