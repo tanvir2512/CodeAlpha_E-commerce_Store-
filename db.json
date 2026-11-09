@@ -119,6 +119,22 @@
         "weight": "9g Servo Weight",
         "mcu": "3-pin PWM Interface"
       }
+    },
+      {
+      "id": "prod-9",
+      "title": "Pixhawk 2.4.8 Flight Controller",
+      "category": "Flight Controllers",
+      "price": 96.7,
+      "rating": 4.5,
+      "stock": 15,
+      "image": "/images/pixhawk-2-4-8-px4-32-bit-flight-controller.jpg",
+      "description": "1. The advanced 32-bit ARM CortexM4 high-performance processors, can run NuttX RTOS real-time operating system\n2. 14 PWM / servo output;\n3. Bus interface (UART, I2C, SPI, CAN);\n4. The integrated backup power and backup controller fails, the primary controller fails over to the backup control is safe;\n5. Provide automatic and manual modes;\n6. Provide redundant power input and failover;\n7. Multicolor LED lights;\n8. Provide multi-tone buzzer Interface\n9. Micro SD recording flight data",
+      "specs": {
+        "voltage": "4.75V - 5.25V Input",
+        "weight": "48g | 84x44x12mm",
+        "mcu": "\nL3GD20 3-axis 16-bit digital gyroscope \nLSM303D 14/3 Axis Accelerometer Magnetometer\nMPU6000 6-axis accelerometer/magnetometer\nMS5611 high precision barometer"
+      
+      }
     }
   ],
   "users": [
